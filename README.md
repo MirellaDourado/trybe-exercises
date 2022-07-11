@@ -1,6 +1,6 @@
 # Exercícios da Trybe
 
-Olá! Bem vindo ao meu repositório "trybe-exercises" criado especialmente para compartilhar meus projetos durante o meu período de estudos na escola de programação "Trybe".
+Olá! Bem vindo(a) ao meu repositório "trybe-exercises" criado especialmente para compartilhar meus projetos durante o meu período de estudos na escola de programação "Trybe".
 
 ## Navegação 
 
