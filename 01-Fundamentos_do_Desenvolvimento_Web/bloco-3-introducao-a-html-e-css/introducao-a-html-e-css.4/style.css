@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #00263E;
+}
+#content{
+    background-color: rgb(231, 244, 255);
+    margin: 40px;
+    border-radius: 20px;
+}
+main{
+    padding: 50px;
+    text-align: justify;
+}
+h1,h2,h3{
+    text-align: center;
+}
+article{
+    width: 50%;
+}
+img{
+    width: 200px;
+}
+#video{
+    float: right;
+}
+/*-----------------*/
+footer{
+    text-align: center;
+    color: #9aa3a8;
+}
