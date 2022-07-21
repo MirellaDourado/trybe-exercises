@@ -35,4 +35,12 @@ let resultadoSomaArray = null;
 
 
 // 5. Com o for, descubra qual o maior valor contido no array e imprima-o
+let comparacao = 0;
 
+for (let indice = 0; indice < numbers.length; indice += 1) {
+  if (comparacao <= numbers[indice]){
+    comparacao = numbers[indice]
+  }
+}
+
+console.log(comparacao)
