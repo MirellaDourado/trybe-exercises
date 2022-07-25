@@ -79,3 +79,22 @@ if (leitor.livrosFavoritos.length > 1){
 } else {
   console.log(leitor.nome, 'não tem livros favoritos')
 }
+
+// Parte II - Funções
+
+// 1. Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for
+let result = ""
+
+function palindromo (palavra){
+  let result = palavra.split('').reverse().join('');
+  if(result === palavra){
+    return true
+  } else {
+    return false
+  }
+}
+
+
+console.log(palindromo('arara'))
+
+
