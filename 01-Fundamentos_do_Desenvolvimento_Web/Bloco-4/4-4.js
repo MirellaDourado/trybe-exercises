@@ -127,4 +127,41 @@ function theSmallestInArray (numbers){
 
 console.log(theSmallestInArray([1, 3, 4, 6]))
 
-//
+//  4. Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
+
+function theLongestName (names){
+  let longest = 0
+  for (let index in names){
+    if(names[longest].length <= names[index].length){
+      longest = index
+    }
+  }
+
+  return names[longest]
+}
+
+console.log(theLongestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
+
+// 5. Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+
+function repeticao (arrayNumeros){
+  let numeroRepetido = 0;
+  let indexRepetido = 0;
+  let quantidadeRepeticao = 0;
+  let quantidadeRepeticaoNumero = 0;
+  
+  for(let index in arrayNumeros){
+    if(arrayNumeros[indexRepetido] === arrayNumeros[index]){
+      quantidadeRepeticao += 1
+      indexRepetido = index
+      if(quantidadeRepeticao > quantidadeRepeticaoNumero){
+        quantidadeRepeticaoNumero = quantidadeRepeticao
+        numeroRepetido = arrayNumeros[index]
+      }
+    }
+  }
+
+  return numeroRepetido
+}
+
+console.log(repeticao([2, 3, 2, 5, 8, 2, 3]))
