@@ -60,3 +60,12 @@ let leitor = {
 };
 
 console.log('O livro favorito de', leitor.nome, leitor.sobrenome, 'se chama', leitor.livrosFavoritos[0].titulo)
+
+// 7. Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a esta chave um objeto
+
+leitor.livrosFavoritos[1] = {}
+leitor.livrosFavoritos[1].titulo = 'Harry Potter e o Prisioneiro de Azkaban'
+leitor.livrosFavoritos[1].autor = 'JK Rowling'
+leitor.livrosFavoritos[1].editora = 'Rocco'
+
+console.log(leitor.livrosFavoritos[1])
