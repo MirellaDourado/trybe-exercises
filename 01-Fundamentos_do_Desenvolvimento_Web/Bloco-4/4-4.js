@@ -97,4 +97,18 @@ function palindromo (palavra){
 
 console.log(palindromo('arara'))
 
+// 2. Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+
+function theBiggestInArray (numbers){
+  let maior = 0
+  for (let index in numbers){
+    if(numbers[maior] < numbers[index]){
+      maior = index
+    }
+  }
+
+  return maior
+}
+
+console.log(theBiggestInArray([1, 3, 4, 6]))
 
