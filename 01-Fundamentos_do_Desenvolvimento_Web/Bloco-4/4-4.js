@@ -112,3 +112,19 @@ function theBiggestInArray (numbers){
 
 console.log(theBiggestInArray([1, 3, 4, 6]))
 
+// 3. Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
+
+function theSmallestInArray (numbers){
+  let menor = 0
+  for (let index in numbers){
+    if(numbers[menor] > numbers[index]){
+      maior = index
+    }
+  }
+
+  return menor
+}
+
+console.log(theSmallestInArray([1, 3, 4, 6]))
+
+//
