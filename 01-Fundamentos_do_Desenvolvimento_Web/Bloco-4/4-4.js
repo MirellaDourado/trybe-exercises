@@ -69,3 +69,13 @@ leitor.livrosFavoritos[1].autor = 'JK Rowling'
 leitor.livrosFavoritos[1].editora = 'Rocco'
 
 console.log(leitor.livrosFavoritos[1])
+
+// 8. Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: "Julia tem 2 livros favoritos"
+
+if (leitor.livrosFavoritos.length > 1){
+  console.log(leitor.nome, 'tem', leitor.livrosFavoritos.length, 'livros favoritos')
+} else if (leitor.livrosFavoritos.length === 1){
+  console.log(leitor.nome, 'tem', leitor.livrosFavoritos.length, 'livro favorito')
+} else {
+  console.log(leitor.nome, 'não tem livros favoritos')
+}
