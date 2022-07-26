@@ -165,3 +165,37 @@ function repeticao (arrayNumeros){
 }
 
 console.log(repeticao([2, 3, 2, 5, 8, 2, 3]))
+
+//  6. Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
+
+function somatorio (number){
+  let result = 0;
+  if(number > 0){
+    for(let index = 0; index <= number; index+=1){
+      result += index
+    }
+  } else {
+    result = 'error'
+  }
+
+  return result
+}
+
+console.log(somatorio(5))
+
+//  7. Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
+
+function sameEnding (word, ending){
+  let contagem = ending.length
+  let comparacao = ""
+  for (indice = word.length - ending.length; indice < word.length; indice += 1 ){
+    comparacao += word[indice]
+  }
+  if (comparacao === ending){
+    return true
+  } else {
+    return false
+  }
+}
+
+console.log(sameEnding('joaofernando', 'fernan'))
