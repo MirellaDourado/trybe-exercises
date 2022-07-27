@@ -3,12 +3,10 @@
         - document.getElementById()
         - document.getElementsByClassName()
         - document.getElementsByTagName()
-        . (Não gaste tempo pensando no texto e sim realizando o exercício)
-        3. Crie e execute uma função que mude a cor do quadrado vermelho para branco.
+*/
         
         
-        6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+        
 
 // 1. Crie e execute uma função que mude o texto na tag `<p>-----</p>`, para uma descrição de como você se vê daqui a 2 anos
 
@@ -30,4 +28,7 @@
     document.getElementsByTagName('p')[index].style = 'text-transform: uppercase'
   } 
   
-  
+// 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+  for(let index = 0; index < document.getElementsByTagName('p').length; index += 1){
+    console.log(document.getElementsByTagName('p')[index].innerText)
+  }
