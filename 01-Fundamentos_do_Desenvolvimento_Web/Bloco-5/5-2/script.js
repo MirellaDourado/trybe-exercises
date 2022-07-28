@@ -12,3 +12,8 @@ let sectionContent = document.createElement('section')
 sectionContent.className = 'center-content'
 mainContent.appendChild(sectionContent)
 
+// 4. 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
+let paragrafo = document.createElement('p')
+paragrafo.innerText = 'DOM é assustador de primeira'
+sectionContent.appendChild(paragrafo)
+
