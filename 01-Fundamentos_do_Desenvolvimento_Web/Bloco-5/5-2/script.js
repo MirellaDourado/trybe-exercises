@@ -49,5 +49,11 @@ for(let index = 1; index <= 10; index += 1){
 
 }
 
+// 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
-
+for(let index = 1; index <= 3; index += 1){
+  let titulosH3 = document.createElement('h3')
+  mainContent.appendChild(titulosH3)
+  }
+  
+  
