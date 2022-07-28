@@ -7,3 +7,8 @@ document.body.appendChild(tituloPrincipal)
 let mainContent = document.createElement('main')
 document.body.appendChild(mainContent)
 
+// 3. 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
+let sectionContent = document.createElement('section')
+sectionContent.className = 'center-content'
+mainContent.appendChild(sectionContent)
+
