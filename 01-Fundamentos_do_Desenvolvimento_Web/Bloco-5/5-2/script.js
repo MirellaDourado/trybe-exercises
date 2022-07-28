@@ -17,3 +17,9 @@ let paragrafo = document.createElement('p')
 paragrafo.innerText = 'DOM é assustador de primeira'
 sectionContent.appendChild(paragrafo)
 
+// 5. 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
+let leftContent = document.createElement('section')
+leftContent.className = 'left-content'
+mainContent.appendChild(leftContent)
+
+
