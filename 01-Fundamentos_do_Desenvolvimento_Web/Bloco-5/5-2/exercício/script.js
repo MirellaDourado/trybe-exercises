@@ -5,6 +5,7 @@ document.body.appendChild(tituloPrincipal)
 
 // 2. 🚀 Adicione a tag main com a classe main-content como filho da tag body;
 let mainContent = document.createElement('main')
+mainContent.className = 'main-content '
 document.body.appendChild(mainContent)
 
 // 3. 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
@@ -40,13 +41,10 @@ let listaOrdenada = document.createElement('ul')
 rightContent.appendChild(listaOrdenada)
 let arrayExtenso = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
 
-for(let index = 1; index <= 10; index += 1){
+for(let index = 0; index < arrayExtenso.length; index += 1){
   let listaOrdenadaExtenso = document.createElement('li')
+  listaOrdenadaExtenso.innerText = arrayExtenso[index]
   listaOrdenada.appendChild(listaOrdenadaExtenso)
-  for(let indice = 0; indice < arrayExtenso.length; indice += 1){
-    listaOrdenada.innerText = arrayExtenso[indice]
-  }
-
 }
 
 // 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
