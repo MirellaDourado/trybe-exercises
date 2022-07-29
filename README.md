@@ -50,28 +50,29 @@ posicionamento
 
 - :ballot_box_with_check: 4. HTML Semântico
 
-- :ballot_box_with_check: 5. heavy_check_mark 05: Projeto - Lessons Learned (NOTA: :hourglass_flowing_sand:%)
+- :ballot_box_with_check: 5. heavy_check_mark 05: Projeto - Lessons Learned (NOTA: 100%)
 
 
 ### Bloco 04: Introdução à JavaScript e Lógica de Programação
 
-- :black_square_button: 1. Introdução - JavaScript
+- :ballot_box_with_check: 1. Introdução - JavaScript
 
-- :black_square_button: 1. JavaScript - Primeiros passos
+- :ballot_box_with_check: 1. JavaScript - Primeiros passos
 
-- :black_square_button: 2. JavaScript - Array e loop For
+- :ballot_box_with_check: 2. JavaScript - Array e loop For
 
-- :black_square_button: 3. JavaScript - Lógica de Programação e Algoritmos
+- :ballot_box_with_check: 3. JavaScript - Lógica de Programação e Algoritmos
 
-- :black_square_button: 4. JavaScript - Objetos e funções
+- :ballot_box_with_check: 4. JavaScript - Objetos e funções
 
-- :black_square_button: 5. Projeto - Playground Functions (NOTA: -)
+- :ballot_box_with_check: 5. Projeto - Playground Functions (NOTA: 100%)
+
 
 ### Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
-- :black_square_button: 1. JavaScript - DOM e seletores
+- :ballot_box_with_check: 1. JavaScript - DOM e seletores
 
-- :black_square_button: 2. JavaScript - Trabalhando com elementos
+- :ballot_box_with_check: 2. JavaScript - Trabalhando com elementos
 
 - :black_square_button: 3. JavaScript - Eventos
 
@@ -79,7 +80,7 @@ posicionamento
 
 - :black_square_button: 5. Fundamentos - JavaScript - Projetos
 
-- :black_square_button: 5. Projeto - Arte com Pixels (NOTA: - )
+- :black_square_button: 5. Projeto - Arte com Pixels (NOTA: :hourglass_flowing_sand: % )
 
 - :black_square_button: 6. (Bônus) Projeto - Lista de tarefas (NOTA: - )
 
