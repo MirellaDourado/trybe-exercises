@@ -88,7 +88,7 @@ posicionamento
 
 - :black_square_button: 6. (Bônus) Projeto - Meme Generator (NOTA: - )
 
--heavy_check_mark 6: (Bônus) Projeto - Carta Misteriosa (NOTA: - )
+- :black_square_button: 6. (Bônus) Projeto - Carta Misteriosa (NOTA: - )
 
 
 ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
