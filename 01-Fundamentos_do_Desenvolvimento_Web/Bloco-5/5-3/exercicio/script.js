@@ -36,3 +36,17 @@ function days(){
 }
 
 days();
+
+//-----------------------------------------------------------------------------
+
+function holidays(Feriados){
+  const divButtons = document.querySelector(".buttons-container")
+  const holidayButton = document.createElement('button')
+
+  holidayButton.id = "btn-holiday"
+  holidayButton.innerText = "Feriados"
+  divButtons.appendChild(holidayButton)
+}
+holidays()
+
+  
