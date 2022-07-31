@@ -15,7 +15,7 @@ createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
 
-function days(){
+function days() {
   let decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
   const listDays = document.querySelector("#days")
 
@@ -42,7 +42,7 @@ days();
 //-----------------------------------------------------------------------------
 const divButtons = document.querySelector(".buttons-container")
 
-function holidays(Feriados){
+function holidays(Feriados) {
   const holidayButton = document.createElement('button')
 
   holidayButton.id = "btn-holiday"
@@ -69,7 +69,7 @@ button.addEventListener('click', changeHolidayColor)
 //------------------------------------------------------------
 
 
-function fridayButton(sextaFeira){
+function fridayButton(sextaFeira) {
   const friday = document.createElement('button')
   friday.id = "btn-friday"
   friday.innerText = 'Sexta-feira'
@@ -81,7 +81,7 @@ fridayButton()
 // ---------------------------------------------------------
 const fridayBtn = document.querySelector('#btn-friday')
 
-function changeFridayText(){
+function changeFridayText() {
   let fridays = document.querySelectorAll(".friday")
   for(let index = 0; index < fridays.length; index += 1){
     if(fridays[index].innerText == 'sextou') {
@@ -97,15 +97,17 @@ fridayBtn.addEventListener('click', changeFridayText)
 
 // ------------------------------------------------------------
 
-function zoom(){
+function zoom() {
   const ulDays = document.querySelector('#days') 
   function zoomIn(day){
     day.target.style.fontSize = '30px'
+    day.target.style.fontWeight = 800
   }
   ulDays.addEventListener('mouseover', zoomIn)
 
   function zoomOut(day){
     day.target.style.fontSize = '20px'
+    day.target.style.fontWeight = 400
   }
   ulDays.addEventListener('mouseout', zoomOut)
 }
@@ -113,3 +115,14 @@ function zoom(){
 zoom()
 
 // --------------------------------------------------------------
+const divTask = document.querySelector(".my-tasks")
+function taskActivity(task) {
+  let tasks = document.createElement('span')
+  tasks.innerText = task + ':'
+
+  divTask.appendChild(tasks)
+}
+
+taskActivity('Projeto')
+
+
