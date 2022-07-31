@@ -77,3 +77,20 @@ function fridayButton(sextaFeira){
 }
 
 fridayButton()
+
+// ---------------------------------------------------------
+const fridayBtn = document.querySelector('#btn-friday')
+
+function changeFridayText(){
+  let fridays = document.querySelectorAll(".friday")
+  for(let index = 0; index < fridays.length; index += 1){
+    if(fridays[index].innerText == 'sextou') {
+      const daysFridays = [4, 11, 18, 25]
+      fridays[index].innerText = daysFridays[index] 
+    } else {
+      fridays[index].innerText = 'sextou'
+    }
+  }
+}
+
+fridayBtn.addEventListener('click', changeFridayText)
