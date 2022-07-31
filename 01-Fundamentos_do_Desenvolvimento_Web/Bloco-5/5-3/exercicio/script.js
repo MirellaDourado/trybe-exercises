@@ -94,3 +94,22 @@ function changeFridayText(){
 }
 
 fridayBtn.addEventListener('click', changeFridayText)
+
+// ------------------------------------------------------------
+
+function zoom(){
+  const ulDays = document.querySelector('#days') 
+  function zoomIn(day){
+    day.target.style.fontSize = '30px'
+  }
+  ulDays.addEventListener('mouseover', zoomIn)
+
+  function zoomOut(day){
+    day.target.style.fontSize = '20px'
+  }
+  ulDays.addEventListener('mouseout', zoomOut)
+}
+
+zoom()
+
+// --------------------------------------------------------------
