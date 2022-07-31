@@ -125,4 +125,12 @@ function taskActivity(task) {
 
 taskActivity('Projeto')
 
+// --------------------------------------------------------------
+function ccColor(){
+  const cc = document.createElement('div')
+  cc.style.backgroundColor = 'green'
+  cc.className = 'task'
+  divTask.appendChild(cc)
+}
 
+ccColor()
