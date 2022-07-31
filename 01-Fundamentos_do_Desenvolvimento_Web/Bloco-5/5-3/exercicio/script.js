@@ -134,3 +134,16 @@ function ccColor(){
 }
 
 ccColor()
+
+// --------------------------------------------------
+let elementos = divTask.getElementsByTagName('div')
+function taskSelected(event) {
+  if (event.target.className === 'task'){
+    event.target.className = 'task selected'
+  } else {
+    event.target.className = 'task'
+  }
+}
+
+
+divTask.addEventListener('click', taskSelected)
