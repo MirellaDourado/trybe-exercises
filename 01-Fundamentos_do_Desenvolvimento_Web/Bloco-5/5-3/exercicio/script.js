@@ -96,9 +96,8 @@ function changeFridayText() {
 fridayBtn.addEventListener('click', changeFridayText)
 
 // ------------------------------------------------------------
-
+const ulDays = document.querySelector('#days') 
 function zoom() {
-  const ulDays = document.querySelector('#days') 
   function zoomIn(day){
     day.target.style.fontSize = '30px'
     day.target.style.fontWeight = 800
@@ -145,5 +144,17 @@ function taskSelected(event) {
   }
 }
 
-
 divTask.addEventListener('click', taskSelected)
+
+// -------------------------------------------------------
+const colorTask = document.querySelector('.task')
+function dateTaskColor(date){
+  if (colorTask.className === 'task selected'){
+    if (date.target.style.color === colorTask.style.backgroundColor){
+      date.target.style.color = '#666666'
+    } else {
+      date.target.style.color = colorTask.style.backgroundColor
+    }
+  }
+}
+ulDays.addEventListener('click', dateTaskColor)
