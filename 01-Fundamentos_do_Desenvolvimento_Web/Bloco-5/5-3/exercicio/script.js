@@ -24,10 +24,12 @@ function days(){
     let dayListDecember = document.createElement('li');
     dayListDecember.innerHTML = day;
 
-    if(decemberDaysList[index] === 24 || decemberDaysList[index] === 25 || decemberDaysList[index]=== 31) {
+    if(decemberDaysList[index] === 24 || decemberDaysList[index]=== 31) {
       dayListDecember.className = 'day holiday'
-    } else if (decemberDaysList[index] === 4 || decemberDaysList[index] === 11 || decemberDaysList[index] === 18 || decemberDaysList[index] === 25) {
+    } else if (decemberDaysList[index] === 4 || decemberDaysList[index] === 11 || decemberDaysList[index] === 18) {
       dayListDecember.className = 'day friday'
+    } else if(decemberDaysList[index] === 25) {
+      dayListDecember.className = 'day holiday friday'
     } else {
       dayListDecember.className = 'day'
     }
@@ -48,5 +50,21 @@ function holidays(Feriados){
   divButtons.appendChild(holidayButton)
 }
 holidays()
+// -----------------------------------------------------------
 
+let button = document.querySelector('#btn-holiday')
+let holiday = document.querySelectorAll(".holiday");
   
+function changeHolidayColor(){
+  for(index = 0; index < holiday.length; index += 1) {
+    if(holiday[index].style.backgroundColor == 'red'){
+      holiday[index].style.backgroundColor = '#EEEEEE'
+    } else {
+      holiday[index].style.backgroundColor = 'red'
+    }
+  }  
+}
+button.addEventListener('click', changeHolidayColor)
+
+//------------------------------------------------------------
+
