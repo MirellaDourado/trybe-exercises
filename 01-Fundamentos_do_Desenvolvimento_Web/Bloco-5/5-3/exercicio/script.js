@@ -40,9 +40,9 @@ function days(){
 days();
 
 //-----------------------------------------------------------------------------
+const divButtons = document.querySelector(".buttons-container")
 
 function holidays(Feriados){
-  const divButtons = document.querySelector(".buttons-container")
   const holidayButton = document.createElement('button')
 
   holidayButton.id = "btn-holiday"
@@ -68,3 +68,12 @@ button.addEventListener('click', changeHolidayColor)
 
 //------------------------------------------------------------
 
+
+function fridayButton(sextaFeira){
+  const friday = document.createElement('button')
+  friday.id = "btn-friday"
+  friday.innerText = 'Sexta-feira'
+  divButtons.appendChild(friday)
+}
+
+fridayButton()
