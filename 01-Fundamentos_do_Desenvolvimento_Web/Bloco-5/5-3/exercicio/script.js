@@ -158,3 +158,32 @@ function dateTaskColor(date){
   }
 }
 ulDays.addEventListener('click', dateTaskColor)
+
+// -----------------------------------------------------
+const taskList = document.querySelector('.task-list')
+const addBtn = document.querySelector('#btn-add')
+const inputBox= document.querySelector('input')
+
+function addTask(){
+  let text = document.createElement('li');
+  if (inputBox.value === ''){
+    window.alert('ERROR')
+  } else {
+    text.innerText = inputBox.value
+    taskList.appendChild(text)
+    inputBox.value = ''
+  }
+}
+addBtn.addEventListener('click', addTask)
+inputBox.addEventListener('keypress', function(e) {
+  if (e.key === 'Enter'){
+    let text = document.createElement('li');
+    if (inputBox.value === ''){
+      window.alert('ERROR')
+    } else {
+      text.innerText = inputBox.value
+      taskList.appendChild(text)
+      inputBox.value = ''
+    }
+}
+})
