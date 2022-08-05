@@ -74,28 +74,28 @@ posicionamento
 
 - :ballot_box_with_check: 2. JavaScript - Trabalhando com elementos
 
-- :black_square_button: 3. JavaScript - Eventos
+- :ballot_box_with_check: 3. JavaScript - Eventos
 
-- :black_square_button: 4. JavaScript - Web Storage
+- :ballot_box_with_check: 4. JavaScript - Web Storage
 
-- :black_square_button: 5. Fundamentos - JavaScript - Projetos
+- :ballot_box_with_check: 5. Fundamentos - JavaScript - Projetos
 
-- :black_square_button: 5. Projeto - Arte com Pixels (NOTA: :hourglass_flowing_sand: % )
+- :ballot_box_with_check: 5. Projeto - Arte com Pixels (NOTA: 100% % )
 
-- :black_square_button: 6. (Bônus) Projeto - Lista de tarefas (NOTA: - )
+- :ballot_box_with_check: 6. (Bônus) Projeto - Lista de tarefas (NOTA::hourglass_flowing_sand: % )
 
-- :black_square_button: 6. (Bônus) Projeto - Adivinhe a Cor (NOTA: - )
+- :ballot_box_with_check: 6. (Bônus) Projeto - Adivinhe a Cor (NOTA: 100% )
 
-- :black_square_button: 6. (Bônus) Projeto - Meme Generator (NOTA: - )
+- :ballot_box_with_check: 6. (Bônus) Projeto - Meme Generator (NOTA: 100% )
 
-- :black_square_button: 6. (Bônus) Projeto - Carta Misteriosa (NOTA: - )
+- :ballot_box_with_check: 6. (Bônus) Projeto - Carta Misteriosa (NOTA: 100% )
 
 
 ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
-- :black_square_button: 1. HTML & CSS - Forms
+- :ballot_box_with_check: 1. HTML & CSS - Forms
 
-- :black_square_button: 2. Bibliotecas JavaScript e Frameworks CSS
+- :ballot_box_with_check: 2. Bibliotecas JavaScript e Frameworks CSS
 
 - :black_square_button: 3. Introdução - CSS Flexbox
 
