@@ -11,11 +11,11 @@
     <h1>Trybe Trip</h1>
     <p>Concorra a uma viagem inteiramente paga pela Trybe!</p>
   </header>
-  <form action="">
+  <form action="form.html" method="get">
     <main>
       <div>
         <label for="name"> Nome Completo
-          <input type="text" placeholder="Insira seu nome completo" id="name" minlength="10" maxlength="40">
+          <input type="text" placeholder="Insira seu nome completo" id="user-name" minlength="10" maxlength="40">
         </label>
       </div>
      <div>
@@ -33,7 +33,7 @@
       </div>
       <div>
           <legend>Nos conte por que você deveria ganhar!</legend>
-          <textarea name="" id="why" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea name="porque" id="why" cols="30" rows="10" maxlength="500"></textarea>
       </div>
       <div>
         <label for="travel-date">
@@ -43,7 +43,7 @@
       <div>
         <div>
           <label for="notification">
-            <input type="checkbox" name="" id="notification"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <input type="checkbox" name="notificacao" id="notification"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
           </label>
         </div>
         <div>
@@ -52,6 +52,7 @@
           </label>
         </div>
       </div>
+      <button type="submit">Enviar!</button>
     </main>
   </form>
 </body>
