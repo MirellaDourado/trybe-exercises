@@ -1,0 +1,80 @@
+.box {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 20%;
+}
+
+.box-container1 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  /* 1 - Teste as possibilidades (center, flex-start, flex-end, space-around e space-between) para a propriedade justify-content. */
+  justify-content: space-evenly;
+}
+
+.box-one {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 70px;
+  min-height: 80px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-two {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  min-height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-three {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 30px;
+  margin: 10px 5px;
+  min-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+.box-container2 {
+  background-color: #0fa36b;
+  display: flex;
+  /* ADICIONE AQUI SEUS TESTES */
+  /* 2 - Teste as possibilidades (center, flex-start, flex-end, stretch e baseline) para a propriedade align-items.  */
+  align-items: stretch;
+}
+
+.box3 {
+  color: #9069EF;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid #232525;
+  font-size: 50px;
+  min-height: 60px;
+  margin: 10px 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.box-container {
+  /* Teste as possibilidades (center, flex-start, flex-end, stretch, space-around e space-between) para a propriedade align-content. */
+  /* ADICIONE AQUI SEUS TESTES */
+  background-color: #0fa36b;
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  align-content: space-between;
+}
