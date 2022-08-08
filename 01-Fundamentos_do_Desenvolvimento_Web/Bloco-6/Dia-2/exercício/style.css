@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: -3px;
+}
+
+#photos {
+  display: none;
+}
+
+header {
+  text-align: center;
+}
+
+#btn-group {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin-left: 10px;
+}
+
+.input-group-text {
+  background-color: #2CB784;
+  color: white;
+  border-color: #03664E;
+}
+
+.form-control {
+  border-color: #03664E;
+}
+
+.container {
+  --bs-gutter-x: 5rem;
+}
+
+.form-check-input:checked {
+  background-color: #2CB784;
+  border-color: #03664E;
+}
+.green {
+  display: flex;
+  background-color: #03664E;
+  justify-content: end;
+}
+
+footer{
+  background-color: #03664E;
+  display: flex;
+  padding: 2px;
+}
+
+footer p {
+  text-align: center;
+  margin: auto;
+  color: #2cb784c4;
+}
