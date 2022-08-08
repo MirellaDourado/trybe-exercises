@@ -97,9 +97,9 @@ posicionamento
 
 - :ballot_box_with_check: 2. Bibliotecas JavaScript e Frameworks CSS
 
-- :black_square_button: 3. Introdução - CSS Flexbox
+- :ballot_box_with_check: 3. Introdução - CSS Flexbox
 
-- :black_square_button: 3. CSS Flexbox - Parte 1
+- :ballot_box_with_check: 3. CSS Flexbox - Parte 1
 
 - :black_square_button: 4. CSS Flexbox - Parte 2
 
