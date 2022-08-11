@@ -1,0 +1,212 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+
+ /* Realize as seguintes tarefas:
+  1 - Faça o tamanho da fonte ser maior;
+  2 - Faça o tamanho da fonte dos elementos h1 ser menor;
+  3 - Aumente o espaçamento entre as figuras;
+  4 - Adicione um pouco de margin na página.
+ */
+
+
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+header {
+  border: 0;  background-color: black;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 29px;
+}
+
+article {
+  margin: 20px;
+  font-size: 24px;
+  text-align: justify;
+}
+
+article p {
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+  margin-bottom: 40px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+figure {
+	margin: 20px;
+  border: 2px red solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure img {
+  margin: 10px 10px;
+}
+
+figcaption {
+  font-size: 20px;
+}
+
+/* 5 - Guarde a largura da tela no ponto que você identificou que o layout atual não funcionou bem (por exemplo 800px). Esse será o primeiro breakpoint do layout. Um breakpoint é apenas um ponto onde estamos definindo que o design atual deve mudar;
+  6 - Crie uma media query no seu arquivo CSS, usando a dimensão em pixels que você guardou como o min-width do teste da media query. Dentro desse breakpoint, adicione os seguintes ajustes:
+  Altere a cor de fundo (isso vai te ajudar a perceber quando a media query teve efeito);
+  Ajuste o tamanho da fonte;
+  Ajuste as margens da página;
+  Faça as imagens serem mostradas em duas colunas.
+  */
+
+@media screen and (min-width: 800px)  {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: antiquewhite;
+    font-size: 28px;
+    margin: 0;
+  }
+
+  header h1 {
+    color: black;
+    font-size: 40px;
+  }
+
+  header {
+    background-color: white;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article {
+    margin: 20px 60px;
+    text-align: justify;
+  }
+
+  main {
+    margin: 10px 60px 0 60px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px red solid;
+    justify-content: center;
+  }
+
+  section figure {
+    margin: 10px 10px;
+    border: 2px red solid;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main section figure img {
+    margin-bottom: 10px;
+  }
+
+  main section figure figcaption {
+    font-size: 24px;
+  }
+}
+
+/* 7 - Agora, você vai criar outro breakpoint para telas grandes. Redimensione sua tela de novo para encontrar um novo breakpoint.
+  8 - Crie uma nova media query no seu arquivo CSS usando a dimensão que você encontrou para telas grandes (por exemplo 1300px), e realize os seguintes ajustes dentro do breakpoint:
+  Altere a cor de fundo;
+  Ajuste o tamanho da fonte;
+  Ajuste as margens da página;
+  Adicione a propriedade max-width à página, para garantir que a largura das linhas não fique muito grande.  */
+
+  @media screen and (min-width: 1300px) {
+    body {
+      background-color: gainsboro;
+    }
+    
+    header {
+      height: 100px;
+    }
+    
+    header h1 {
+      font-size: 70px;
+    }
+    section {
+      justify-content: space-between;
+    }
+
+    main h2 {
+      font-size: 60px;
+    }
+    
+    article {
+      margin: 50px 120px;
+      font-size: 35px;
+    }
+
+    section figure {
+      margin-bottom: 50px;
+    }
+
+    section img {
+      width: 100%;
+    }
+
+    section figcaption {
+      font-size: 25px;
+    }
+
+  }
