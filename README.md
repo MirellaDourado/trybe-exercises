@@ -101,9 +101,9 @@ posicionamento
 
 - :ballot_box_with_check: 3. CSS Flexbox - Parte 1
 
-- :black_square_button: 4. CSS Flexbox - Parte 2
+- :ballot_box_with_check: 4. CSS Flexbox - Parte 2
 
-- :black_square_button: 5. CSS Responsivo - Mobile First
+- :ballot_box_with_check: 5. CSS Responsivo - Mobile First
 
 - :black_square_button: 6. Projeto - Trybewarts (NOTA: - )
 
