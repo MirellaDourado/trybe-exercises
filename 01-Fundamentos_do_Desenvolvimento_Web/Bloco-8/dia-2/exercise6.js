@@ -63,17 +63,17 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-// 🚀 5 - Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
+// 🚀 6 - Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 
-const expectedResult = false;
+const expectedResult = true;
 
-function everyoneWasBornOnSecXX() {
-  books.some( (book) => {
-    book.author.birthYear >= 1901 && book.author.birthYear <= 2000;
-
-    return true
+function someBookWasReleaseOnThe80s() {
+ result = false 
+  result = books.some( (book) => {
+    return book.releaseYear >= 1980 && book.releaseYear <= 1989
   })
-  return false
+
+  return result
 }
 
-console.log(everyoneWasBornOnSecXX())
+console.log(someBookWasReleaseOnThe80s())
