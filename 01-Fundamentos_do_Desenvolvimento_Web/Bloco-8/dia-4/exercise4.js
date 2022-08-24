@@ -77,14 +77,8 @@ const expectedResult = {
   releaseYear: 1991,
 };
 
-function longestNamedBook() {
-  return books.reduce( (acc, acurr) => {
-    if (acc.name.length > acurr.name.length) {
-      return acc
-    } else {
-      return acurr
-    }
-  })
-}
+const longestNamedBook = () => books.
+  reduce( (acc, acurr) => acc.name.length > acurr.name.length ? acc : acurr)
+
 
 console.log(longestNamedBook())
