@@ -6,16 +6,7 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 
-function containsA() {
-  return names.reduce( (acc, word) => {
-    return acc + word.split('').reduce( (count, letter) => {
-      if (letter === 'a' || letter === 'A') {
-        return count += 1
-      } else {
-        return count
-      }
-    },0)
-  }, 0)
-}
+const containsA = () => names.reduce( (acc, word) => acc + word.split('')
+    .reduce( (count, letter) => letter === 'a' || letter === 'A' ? count += 1 : count, 0), 0)
 
 console.log(containsA())
