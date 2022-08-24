@@ -3,24 +3,18 @@
 const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
 const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
-function studentAverage() {
-  const average = grades.map( (grade) =>{
-    return grade.reduce( (acc, acurr) => {
-      return acc + acurr
-    }) / grade.length
-  })
+const averageGrades = () => grades.map( (grade) => grade.
+  reduce( (acc, acurr) => acc + acurr) / grade.length )
 
-  return students.map( (student, index) => {
-    return {name: student, average: average[index]}
-  },)
+const studentAverage = () => students.
+  map( (student, index) => ({name: student, average: averageGrades()[index]}))
 
-
-}
-
-console.log(studentAverage())
-
+  
 const expected = [
   { name: 'Pedro Henrique', average: 7.8 },
   { name: 'Miguel', average: 9.2 },
   { name: 'Maria Clara', average: 8.8 },
 ];
+  
+  
+console.log(studentAverage())
