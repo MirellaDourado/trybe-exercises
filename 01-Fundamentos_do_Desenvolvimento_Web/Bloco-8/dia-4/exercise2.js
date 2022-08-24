@@ -67,14 +67,7 @@ const books = [
 
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
-function reduceNames() {
-  const authorNames = books.map( (book) => book.author.name)
-
-  const result = authorNames.reduce( (acc, acurr) => {
-    return `${acc}, ${acurr}` 
-  })
-
-  return `${result}.`
-}
+const reduceNames = () => `${books.map( (book) => book.author.name)
+  .reduce( (acc, acurr) =>`${acc}, ${acurr}`)}.`
 
 console.log(reduceNames())
