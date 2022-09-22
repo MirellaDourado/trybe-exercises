@@ -10,9 +10,7 @@ A escola de programação conta com mais de 1.500 horas de aulas online, seus co
 
 - Cada pasta principal contará com subpastas sobre os blocos trabalhados na Trybe
 
-- Por sua vez, em cada subpasta, terá um projeto passado pela equipe Trybe e realizado por mim, ou pelo meu grupo a depender do projeto.
-
-- Cada projeto trará seu próprio ReadMe
+- Por sua vez, em cada subpasta, terá um exercício passado pela equipe Trybe e realizado por mim.
 
 ## Fundamentos do Desenvolvimento Web (49 Dias)
 
@@ -50,7 +48,7 @@ posicionamento
 
 - :ballot_box_with_check: 4. HTML Semântico
 
-- :ballot_box_with_check: 5. heavy_check_mark 05: Projeto - Lessons Learned (NOTA: 100%)
+- :ballot_box_with_check: 5. Projeto - Lessons Learned (NOTA: 100%)
 
 
 ### Bloco 04: Introdução à JavaScript e Lógica de Programação
@@ -82,7 +80,7 @@ posicionamento
 
 - :ballot_box_with_check: 5. Projeto - Arte com Pixels (NOTA: 100% % )
 
-- :ballot_box_with_check: 6. (Bônus) Projeto - Lista de tarefas (NOTA::hourglass_flowing_sand: % )
+- :ballot_box_with_check: 6. (Bônus) Projeto - Lista de tarefas (NOTA: 100% )
 
 - :ballot_box_with_check: 6. (Bônus) Projeto - Adivinhe a Cor (NOTA: 100% )
 
@@ -105,30 +103,89 @@ posicionamento
 
 - :ballot_box_with_check: 5. CSS Responsivo - Mobile First
 
-- :black_square_button: 6. Projeto - Trybewarts (NOTA: - )
+- :ballot_box_with_check: 6. Projeto - Trybewarts (NOTA: 100% )
 
 
 ### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
 
-- :black_square_button: 1. JavaScript ES6 - let, const, arrow functions e template literals
+- :ballot_box_with_check: 1. JavaScript ES6 - let, const, arrow functions e template literals
 
-- :black_square_button: 2. JavaScript ES6 - Fluxo de exceção e Objetos
+- :ballot_box_with_check: 2. JavaScript ES6 - Fluxo de exceção e Objetos
 
-- :black_square_button: 3. Primeiros passos em Jest
+- :ballot_box_with_check: 3. Primeiros passos em Jest
 
-- :black_square_button: 4. Projeto - JavaScript Testes Unitários (NOTA: - )
+- :ballot_box_with_check: 4. Projeto - JavaScript Testes Unitários (NOTA: 100% )
 
 
 ### Bloco 08: Higher Order Functions do JavaScript ES6
 
-- :black_square_button: 1. JavaScript ES6 - Introdução a Higher Order Functions
+- :ballot_box_with_check: 1. JavaScript ES6 - Introdução a Higher Order Functions
 
-- :black_square_button: 2. JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- :ballot_box_with_check: 2. JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 
-- :black_square_button: 3. JavaScript ES6 - Higher Order Functions - map e filter
+- :ballot_box_with_check: 3. JavaScript ES6 - Higher Order Functions - map e filter
 
-- :black_square_button: 4. JavaScript ES6 - Higher Order Functions - reduce
+- :ballot_box_with_check: 4. JavaScript ES6 - Higher Order Functions - reduce
 
-- :black_square_button: 5. JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- :ballot_box_with_check: 5. JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 
-- :black_square_button: 6. Projeto - Zoo functions (NOTA: -)
+- :ballot_box_with_check: 6. Projeto - Zoo functions (NOTA: 100% )
+
+
+## Front-end (67 Dias)
+
+### Bloco 09: JavaScript e Testes Assíncronos
+
+- :ballot_box_with_check: 1. JavaScript Assíncrono e Callbacks
+ 
+- :ballot_box_with_check: 2. JavaScript Assíncrono - Fetch API e async/await
+ 
+- :ballot_box_with_check: 3. Jest - Testes Assíncronos
+ 
+- :ballot_box_with_check: 4: Projeto - Carrinho de Compras (NOTA: 100% )
+
+### Bloco 10: Introdução - React
+
+- :ballot_box_with_check: 1. Introdução - React
+ 
+- :ballot_box_with_check: 1. 'Hello, world!' no React
+
+- :ballot_box_with_check: 2. Componentes React
+
+- :ballot_box_with_check: 3. Projeto Sistema Solar (NOTA: 100% )
+
+### Bloco 11: React
+
+- :ballot_box_with_check: 1. Componentes com estado e eventos
+
+- :black_square_button: 2. Formulários no React
+
+- :black_square_button: 3. Projeto - Tryunfo (NOTA: - )
+
+### Bloco 12: React
+
+:hourglass_flowing_sand:
+
+### Bloco 13: Metodologias Ágeis
+
+:hourglass_flowing_sand:
+
+### Bloco 14: Testes em React
+
+:hourglass_flowing_sand:
+
+### Bloco 15: Introdução ao Redux
+
+:hourglass_flowing_sand:
+
+### Bloco 16: Projeto React
+
+:hourglass_flowing_sand:
+
+### Bloco 17: React & Context API
+
+:hourglass_flowing_sand:
+
+### Bloco 18: Projeto Final de Front-end
+
+:hourglass_flowing_sand:
