@@ -158,21 +158,33 @@ posicionamento
 
 - :ballot_box_with_check: 1. Componentes com estado e eventos
 
-- :black_square_button: 2. Formulários no React
+- :ballot_box_with_check: 2. Formulários no React
 
-- :black_square_button: 3. Projeto - Tryunfo (NOTA: - )
+- :ballot_box_with_check: 3. Projeto - Tryunfo (NOTA: 100% )
 
-### Bloco 12: React
+### Bloco 12: Ciclo de vida de componentes e React Router
 
-:hourglass_flowing_sand:
+:ballot_box_with_check: 1. Ciclo de vida de Componentes
+
+:ballot_box_with_check: 2. React Router
+
+:black_square_button: 3. Projeto - TrybeTunes (NOTA: :hourglass_flowing_sand:% )
 
 ### Bloco 13: Metodologias Ágeis
 
-:hourglass_flowing_sand:
+:black_square_button: 1. Metodologias Ágeis
 
-### Bloco 14: Testes em React
+:black_square_button: 2. Projeto - Front-end Online Stores (NOTA: :hourglass_flowing_sand:% )
 
-:hourglass_flowing_sand:
+### Bloco 14: Testes automatizados com React Testing Library
+
+:black_square_button: 1. RTL - Primeiros Passos
+
+:black_square_button: 2. RTL - Mocks e Inputs
+
+:black_square_button: 3. RTL - Testando React Router
+
+:black_square_button: 4. Projeto - Tests em React (NOTA: :hourglass_flowing_sand: % )
 
 ### Bloco 15: Introdução ao Redux
 
