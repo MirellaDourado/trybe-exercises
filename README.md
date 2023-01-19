@@ -15,7 +15,7 @@ A escola de programação conta com mais de 1.500 horas de aulas online, seus co
 ## Fundamentos do Desenvolvimento Web (49 Dias)
 
 
-### Bloco 01: Unix & Bash
+### Seção 01: Unix & Bash
 
 - :ballot_box_with_check: 3. Fundamentos do Desenvolvimento Web
 
@@ -26,7 +26,7 @@ A escola de programação conta com mais de 1.500 horas de aulas online, seus co
 - :ballot_box_with_check: 4. Unix & Bash - Parte 2
 
 
-### Bloco 02: Git, GitHub e Internet
+### Seção 02: Git, GitHub e Internet
 
 - :ballot_box_with_check: 1. Git & GitHub - O que é e para que serve
 
@@ -35,7 +35,7 @@ A escola de programação conta com mais de 1.500 horas de aulas online, seus co
 - :ballot_box_with_check: 3. Internet - Entendendo como ela funciona
 
 
-### Bloco 03: Introdução à HTML e CSS
+### Seção 03: Introdução à HTML e CSS
 
 - :ballot_box_with_check: 1. Introdução - HTML & CSS
 
@@ -51,7 +51,7 @@ posicionamento
 - :ballot_box_with_check: 5. Projeto - Lessons Learned (NOTA: 100%)
 
 
-### Bloco 04: Introdução à JavaScript e Lógica de Programação
+### Seção 04: Introdução à JavaScript e Lógica de Programação
 
 - :ballot_box_with_check: 1. Introdução - JavaScript
 
@@ -66,7 +66,7 @@ posicionamento
 - :ballot_box_with_check: 5. Projeto - Playground Functions (NOTA: 100%)
 
 
-### Bloco 05: JavaScript: DOM, Eventos e Web Storage
+### Seção 05: JavaScript: DOM, Eventos e Web Storage
 
 - :ballot_box_with_check: 1. JavaScript - DOM e seletores
 
@@ -89,7 +89,7 @@ posicionamento
 - :ballot_box_with_check: 6. (Bônus) Projeto - Carta Misteriosa (NOTA: 100% )
 
 
-### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
+### Seção 06: HTML e CSS: Forms, Flexbox e Responsivo
 
 - :ballot_box_with_check: 1. HTML & CSS - Forms
 
@@ -106,7 +106,7 @@ posicionamento
 - :ballot_box_with_check: 6. Projeto - Trybewarts (NOTA: 100% )
 
 
-### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários
+### Seção 07: Introdução à JavaScript ES6 e Testes Unitários
 
 - :ballot_box_with_check: 1. JavaScript ES6 - let, const, arrow functions e template literals
 
@@ -117,7 +117,7 @@ posicionamento
 - :ballot_box_with_check: 4. Projeto - JavaScript Testes Unitários (NOTA: 100% )
 
 
-### Bloco 08: Higher Order Functions do JavaScript ES6
+### Seção 08: Higher Order Functions do JavaScript ES6
 
 - :ballot_box_with_check: 1. JavaScript ES6 - Introdução a Higher Order Functions
 
@@ -132,21 +132,23 @@ posicionamento
 - :ballot_box_with_check: 6. Projeto - Zoo functions (NOTA: 100% )
 
 
-## Front-end (67 Dias)
+## Módulo Front-end (67 Dias)
 
-### Bloco 09: JavaScript e Testes Assíncronos
 
-- :ballot_box_with_check: 1. JavaScript Assíncrono e Callbacks
+### Seção 01: Introdução ao Frontend e JavaScript assíncrono
+
+- :ballot_box_with_check: 1. Ambiente de desenvolvimento
  
-- :ballot_box_with_check: 2. JavaScript Assíncrono - Fetch API e async/await
- 
-- :ballot_box_with_check: 3. Jest - Testes Assíncronos
- 
-- :ballot_box_with_check: 4: Projeto - Carrinho de Compras (NOTA: 100% )
+- :ballot_box_with_check: 2. JavaScript Assíncrono - Fetch API e Promises
 
-### Bloco 10: Introdução - React
+- :ballot_box_with_check: 3. Prática - Casa de câmbio
 
-- :ballot_box_with_check: 1. Introdução - React
+- :ballot_box_with_check: 4. Async, await e testes assíncronos
+ 
+- :ballot_box_with_check: 5: Projeto - Carrinho de Compras (NOTA: 100% )
+
+
+### Seção 02: Introdução - React
  
 - :ballot_box_with_check: 1. 'Hello, world!' no React
 
@@ -154,7 +156,8 @@ posicionamento
 
 - :ballot_box_with_check: 3. Projeto Sistema Solar (NOTA: 100% )
 
-### Bloco 11: React
+
+### Seção 03: Componentes com Estado, Eventos e Formulários com React
 
 - :ballot_box_with_check: 1. Componentes com estado e eventos
 
@@ -162,42 +165,208 @@ posicionamento
 
 - :ballot_box_with_check: 3. Projeto - Tryunfo (NOTA: 100% )
 
-### Bloco 12: Ciclo de vida de componentes e React Router
 
-:ballot_box_with_check: 1. Ciclo de vida de Componentes
+### Seção 04: Ciclo de vida de componentes e React Router
 
-:ballot_box_with_check: 2. React Router
+- :ballot_box_with_check: 1. Ciclo de vida de Componentes
 
-:black_square_button: 3. Projeto - TrybeTunes (NOTA: :hourglass_flowing_sand:% )
+- :ballot_box_with_check: 2. React Router
 
-### Bloco 13: Metodologias Ágeis
+- :ballot_box_with_check: 3. Projeto - TrybeTunes (NOTA: 100% )
 
-:black_square_button: 1. Metodologias Ágeis
 
-:black_square_button: 2. Projeto - Front-end Online Stores (NOTA: :hourglass_flowing_sand:% )
+### Seção 05: Metodologias Ágeis
 
-### Bloco 14: Testes automatizados com React Testing Library
+- :ballot_box_with_check: 1. Metodologias Ágeis
 
-:black_square_button: 1. RTL - Primeiros Passos
+- :ballot_box_with_check: 2. Projeto - Front-end Online Stores (NOTA: 100% )
 
-:black_square_button: 2. RTL - Mocks e Inputs
 
-:black_square_button: 3. RTL - Testando React Router
+### Seção 06: Testes automatizados com React Testing Library
 
-:black_square_button: 4. Projeto - Tests em React (NOTA: :hourglass_flowing_sand: % )
+- :ballot_box_with_check: 1. RTL - Primeiros Passos
 
-### Bloco 15: Introdução ao Redux
+- :ballot_box_with_check: 2. RTL - Mocks e Inputs
 
-:hourglass_flowing_sand:
+- :ballot_box_with_check: 3. RTL - Testando React Router
 
-### Bloco 16: Projeto React
+- :ballot_box_with_check: 4. Projeto - Tests em React (NOTA: 100% )
 
-:hourglass_flowing_sand:
 
-### Bloco 17: React & Context API
+### Seção 07: Gerenciamento de estado com Redux
 
-:hourglass_flowing_sand:
+- :ballot_box_with_check: 1. Introdução ao Redux - O estado global da aplicação
 
-### Bloco 18: Projeto Final de Front-end
+- :ballot_box_with_check: 2. Usando o Redux no React
 
-:hourglass_flowing_sand:
+- :ballot_box_with_check: 3. Usando o Redux no React - Prática
+
+- :ballot_box_with_check: 4. Usando o Reduz no React - Actions Assíncronas
+
+- :ballot_box_with_check: 5. Testes em React-Redux
+
+- :ballot_box_with_check: 6. Projeto - Trybe Wallet (NOTA: 100%)
+
+
+
+### Seção 08: Projeto Jogo de Trivia
+
+- :ballot_box_with_check: 1. Projeto - Jogo de Trivia (NOTA: 100%)
+
+
+### Seção 09: Context API & React Hooks
+
+- :ballot_box_with_check: 1. React Hooks - useState e useEffect
+
+- :ballot_box_with_check: 2. Context API
+
+- :ballot_box_with_check: 3. Custom Hooks
+
+- :ballot_box_with_check: 4. Projeto - StarWars Datable com Context API e Hooks (NOTA: 100%)
+
+
+### Seção 10: Projeto Final de Front-end
+
+- :ballot_box_with_check: 1. Projeto - App de Receitas (NOTA: 100%)
+
+
+## Módulo Back-end (53 Dias)
+
+
+### Seção 01: Docker: Utilizando Containers
+
+- :ballot_box_with_check: 1. Utilizando Containers - Docker
+ 
+- :ballot_box_with_check: 2. Manipulando Imagens no Docker
+
+- :ballot_box_with_check: 3. Orquestrando Containers com Docker Compose
+
+- :ballot_box_with_check: 4. Projeto - Docker Todo-List (NOTA: 100%)
+
+
+### Seção 02: Introdução à SQL
+
+- :ballot_box_with_check: 1. Banco de dados SQL
+
+- :ballot_box_with_check: 2. Encontrando dados em um banco de dados
+ 
+- :ballot_box_with_check: 3. Filtrando dados de forma específica
+
+- :ballot_box_with_check: 4. Manipulando tabelas
+
+- :hourglass_flowing_sand: 5: Projeto - All For One (NOTA: :hourglass_flowing_sand: %)
+
+
+### Seção 03: Funções SQL, JOINs e Normalização
+ 
+- :hourglass_flowing_sand: 1. Funções mais usadas no SQL
+
+- :hourglass_flowing_sand: 2. Descomplicando JOINs
+
+- :hourglass_flowing_sand: 3. Transformando ideias em um modelo de banco de dados
+
+- :hourglass_flowing_sand: 4. Aula ao vivo + Projeto - One For All (NOTA: :hourglass_flowing_sand: %)
+
+
+### Seção 04: Introdução ao desenvolvimento Web com Node.js
+
+- :hourglass_flowing_sand: 1. Node.s: Runtime Assíncrono
+
+- :hourglass_flowing_sand: 2. Node.js: API REST com Express
+
+- :hourglass_flowing_sand: 3. Node.js: Testes de Integração
+
+- :hourglass_flowing_sand: 4. Node.js Express e Middlewares
+
+- :hourglass_flowing_sand: 5. Node.js: Express e MySQL
+
+- :hourglass_flowing_sand: 6. Projeto - Talker Manager (NOTA: :hourglass_flowing_sand: % )
+
+
+### Seção 05: Arquitetura de Software: Model, Service e Controller
+
+- :hourglass_flowing_sand: 1. Arquitetura de Software: Camada Model
+
+- :hourglass_flowing_sand: 2. Camada Service
+
+- :hourglass_flowing_sand: 3. Arquitetura de Software: Camada Controller
+
+- :hourglass_flowing_sand: 3. Projeto - Store Manager (NOTA: :hourglass_flowing_sand: % )
+
+
+### Seção 06: Node.js: ORM e Autenticação
+
+- :hourglass_flowing_sand: 1. ORM - Interface da aplicação com o banco de dados
+
+- :hourglass_flowing_sand: 2. ORM - Associations 1:1 e 1:N
+
+- :hourglass_flowing_sand: 3. ORM - Associations N:N e Transactions
+
+- :hourglass_flowing_sand: 4. JWT - (JSON Web Token)
+
+- :hourglass_flowing_sand: 5. Projeto - API de Blogs (NOTA: :hourglass_flowing_sand: % )
+
+
+### Seção 07: Masterclass: Implantação de Aplicação na Nuvem
+
+- :hourglass_flowing_sand: 1. Infraestrutura: Deploy com Railway
+
+
+### Seção 08: Introdução a TypeScript
+
+- :hourglass_flowing_sand: 1. Introdução ao TYpescript
+
+- :hourglass_flowing_sand: 2. Tipagem Estática e Generics
+
+- :hourglass_flowing_sand: 3. Express com Typescript
+
+- :hourglass_flowing_sand: 4. Projeto - Trybesmith (NOTA: :hourglass_flowing_sand:%)
+
+
+### Seção 09: Programação Orientada a Objetos (POO) e SOLID
+
+- :hourglass_flowing_sand: 1. Introdução à Orientação a Objetos
+
+- :hourglass_flowing_sand: 2. Herança e Composição
+
+- :hourglass_flowing_sand: 3. Polimorfismo
+
+- :hourglass_flowing_sand: 4. SOLID - Introdução e Princípios S, O e D
+
+- :hourglass_flowing_sand: 5. SOLID - Princípios L e I
+
+- :hourglass_flowing_sand: 6. Projeto - Trybers and Dragons (NOTA: :hourglass_flowing_sand:%)
+
+
+### Seção 10: Projeto - TFC - Trybe Futebol Clube
+
+- :hourglass_flowing_sand: 1. Projeto - TFC - Trybe Futebol Clube (NOTA: :hourglass_flowing_sand: %)
+
+
+### Seção 11: Introdução ao MongoDB
+
+- :hourglass_flowing_sand: 1. MongoDB - Introdução
+
+- :hourglass_flowing_sand: 2. Filter Operators
+
+- :hourglass_flowing_sand: 3. Operadores de consulta
+
+- :hourglass_flowing_sand: 4. Update Simples
+
+- :hourglass_flowing_sand: 5. Updates Complexos - Arrays
+
+- :hourglass_flowing_sand: 6. Projeto - Commerce (NOTA: :hourglass_flowing_sand: %)
+
+
+### Seção 12: APIs OO e NoSQL
+
+- :hourglass_flowing_sand: 1. APIs orientadas a objeto e NoSQL: POO e ODMs
+
+- :hourglass_flowing_sand: 2. APIs orientadas a objeto e NoSQL: Herança e Abstração
+
+- :hourglass_flowing_sand: 3. Projeto - Car Shop (NOTA: :hourglass_flowing_sand: %)
+
+
+### Seção 13: Projeto - App de Delivery
+
+- :hourglass_flowing_sand: 3. Projeto - App de Delivery (NOTA: :hourglass_flowing_sand: %)
