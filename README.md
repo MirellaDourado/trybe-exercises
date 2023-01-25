@@ -254,16 +254,16 @@ posicionamento
 
 - :ballot_box_with_check: 4. Manipulando tabelas
 
-- :hourglass_flowing_sand: 5: Projeto - All For One (NOTA: :hourglass_flowing_sand: %)
+- :ballot_box_with_check: 5: Projeto - All For One (NOTA: 100%)
 
 
 ### Seção 03: Funções SQL, JOINs e Normalização
  
-- :hourglass_flowing_sand: 1. Funções mais usadas no SQL
+- :ballot_box_with_check: 1. Funções mais usadas no SQL
 
-- :hourglass_flowing_sand: 2. Descomplicando JOINs
+- :ballot_box_with_check: 2. Descomplicando JOINs
 
-- :hourglass_flowing_sand: 3. Transformando ideias em um modelo de banco de dados
+- :ballot_box_with_check: 3. Transformando ideias em um modelo de banco de dados
 
 - :hourglass_flowing_sand: 4. Aula ao vivo + Projeto - One For All (NOTA: :hourglass_flowing_sand: %)
 
