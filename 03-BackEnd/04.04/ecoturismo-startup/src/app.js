@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const activitiesRouter = require('./routes/activities');
+const activitiesRouter = require('./router/activitiesRouter');
 
 app.use(express.json());
 
