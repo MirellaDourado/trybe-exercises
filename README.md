@@ -265,20 +265,20 @@ posicionamento
 
 - :ballot_box_with_check: 3. Transformando ideias em um modelo de banco de dados
 
-- :hourglass_flowing_sand: 4. Aula ao vivo + Projeto - One For All (NOTA: :hourglass_flowing_sand: %)
+- :ballot_box_with_check: 4. Aula ao vivo + Projeto - One For All (NOTA: 100%)
 
 
 ### Seção 04: Introdução ao desenvolvimento Web com Node.js
 
-- :hourglass_flowing_sand: 1. Node.s: Runtime Assíncrono
+- :ballot_box_with_check: 1. Node.s: Runtime Assíncrono
 
-- :hourglass_flowing_sand: 2. Node.js: API REST com Express
+- :ballot_box_with_check: 2. Node.js: API REST com Express
 
-- :hourglass_flowing_sand: 3. Node.js: Testes de Integração
+- :ballot_box_with_check: 3. Node.js: Testes de Integração
 
-- :hourglass_flowing_sand: 4. Node.js Express e Middlewares
+- :ballot_box_with_check: 4. Node.js Express e Middlewares
 
-- :hourglass_flowing_sand: 5. Node.js: Express e MySQL
+- :ballot_box_with_check: 5. Node.js: Express e MySQL
 
 - :hourglass_flowing_sand: 6. Projeto - Talker Manager (NOTA: :hourglass_flowing_sand: % )
 
