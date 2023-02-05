@@ -1,4 +1,4 @@
-const isValidDate = require('./auxiliar/isValidDate');
+const isValidDate = require('../auxiliar/isValidDate');
 
 const validationName = (req, res, next) => {
   const { name } = req.body;
@@ -76,11 +76,18 @@ const validationDifficulty = (req, res, next) => {
   next();
 }
 
+const validationAuth = (req, res, next) => {
+  const { authorization } = req.header;
+  
+  if(!authorization || authorization.length !== 16) {
+    return res.status(401).json({ "message": "Token inválido"})
+  }
+
+  next()
+}
+
 module.exports = {
-  validationName,
-  validationPrice,
-  validationDescription,
-  validationCreatedAt,
-  validationRating,
-  validationDifficulty
+  validationName, validationPrice,
+  validationDescription, validationCreatedAt,
+  validationRating, validationDifficulty, validationAuth
 }
