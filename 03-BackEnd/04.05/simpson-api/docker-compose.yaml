@@ -1,0 +1,29 @@
+ version: '3'
+ services:
+   node:
+     build: 
+       dockerfile: ./Dockerfile
+       context: .
+     image: node:16-alpine
+     container_name: simpson_api
+     restart: always
+     working_dir: /app
+     volumes:
+       - ./:/app
+     ports:
+       - 3000:3000
+     tty: true
+     depends_on:
+       - "database"
+
+   database:
+     container_name: simpson_db
+     image: mysql:8.0.29
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: simpsondb
+     ports:
+       - "3360:3306"
+     volumes:
+       - ./script.sql:/docker-entrypoint-initdb.d/script.sql
