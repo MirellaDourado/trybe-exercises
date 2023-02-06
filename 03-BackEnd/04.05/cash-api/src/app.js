@@ -4,6 +4,6 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/', peopleRouter);
+app.use('/people', peopleRouter);
 
 module.exports = app;

@@ -13,6 +13,21 @@ router.post('/', async (req, res) => {
   }
 });
 
+router.get('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const [[result]] = await peopleDb.findById(id);
+    if (result) {
+      res.status(200).json(result);
+    } else {
+      res.status(404).json({ message: 'Pessoa não encontrada' });
+    }
+  } catch (err) {
+    console.log(err);
+    res.status(500).json({ message: err.sqlMessage });
+  }
+});
+
 router.get('/', async (_req, res) => {
   try {
     const [result] = await peopleDb.findAll()
@@ -22,22 +37,12 @@ router.get('/', async (_req, res) => {
   }
 })
 
-router.get('/:id', async (req, res) => {
-  const { id } = req.params;
-
-  try {
-    const [result] = await peopleDb.findById(id)
-    return res.status(200).json(result);
-  } catch (error) {
-    return res.status(500).json({ message: error.sqlMessage })
-  }
-})
 
 router.put('/:id', async (req, res) => {
   const { id } = req.params;
 
   try {
-    const [result] = await peopleDb.edit(id);
+    await peopleDb.edit(id);
     return res.status(200).json({ message: `Pessoa com id: ${id} modificada com sucesso.` });
   } catch (error) {
     return res.status(500).json({ message: error.sqlMessage });
@@ -48,7 +53,7 @@ router.delete('/:id', async (req, res) => {
   const { id } = req.params;
 
   try {
-    const [result] = await peopleDb.remove(id);
+    await peopleDb.remove(id);
     return res.status(200).json({ message: `Pessoa com o id: ${id} deletada com sucesso.` });
   } catch (error) {
     return res.status(500).json({ message: error.sqlMessage })
