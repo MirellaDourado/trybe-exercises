@@ -280,41 +280,41 @@ posicionamento
 
 - :ballot_box_with_check: 5. Node.js: Express e MySQL
 
-- :hourglass_flowing_sand: 6. Projeto - Talker Manager (NOTA: :hourglass_flowing_sand: % )
+- :ballot_box_with_check: 6. Projeto - Talker Manager (NOTA: 100% )
 
 
 ### Seção 05: Arquitetura de Software: Model, Service e Controller
 
-- :hourglass_flowing_sand: 1. Arquitetura de Software: Camada Model
+- :ballot_box_with_check: 1. Arquitetura de Software: Camada Model
 
-- :hourglass_flowing_sand: 2. Camada Service
+- :ballot_box_with_check: 2. Camada Service
 
-- :hourglass_flowing_sand: 3. Arquitetura de Software: Camada Controller
+- :ballot_box_with_check: 3. Arquitetura de Software: Camada Controller
 
-- :hourglass_flowing_sand: 3. Projeto - Store Manager (NOTA: :hourglass_flowing_sand: % )
+- :ballot_box_with_check: 3. Projeto - Store Manager (NOTA: 100% )
 
 
 ### Seção 06: Node.js: ORM e Autenticação
 
-- :hourglass_flowing_sand: 1. ORM - Interface da aplicação com o banco de dados
+- :ballot_box_with_check: 1. ORM - Interface da aplicação com o banco de dados
 
-- :hourglass_flowing_sand: 2. ORM - Associations 1:1 e 1:N
+- :ballot_box_with_check: 2. ORM - Associations 1:1 e 1:N
 
-- :hourglass_flowing_sand: 3. ORM - Associations N:N e Transactions
+- :ballot_box_with_check: 3. ORM - Associations N:N e Transactions
 
-- :hourglass_flowing_sand: 4. JWT - (JSON Web Token)
+- :ballot_box_with_check: 4. JWT - (JSON Web Token)
 
-- :hourglass_flowing_sand: 5. Projeto - API de Blogs (NOTA: :hourglass_flowing_sand: % )
+- :ballot_box_with_check: 5. Projeto - API de Blogs (NOTA: 100% )
 
 
 ### Seção 07: Masterclass: Implantação de Aplicação na Nuvem
 
-- :hourglass_flowing_sand: 1. Infraestrutura: Deploy com Railway
+- :ballot_box_with_check: 1. Infraestrutura: Deploy com Railway
 
 
 ### Seção 08: Introdução a TypeScript
 
-- :hourglass_flowing_sand: 1. Introdução ao TYpescript
+- :ballot_box_with_check: 1. Introdução ao TYpescript
 
 - :hourglass_flowing_sand: 2. Tipagem Estática e Generics
 
