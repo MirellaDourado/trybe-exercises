@@ -314,9 +314,9 @@ posicionamento
 
 ### Seção 08: Introdução a TypeScript
 
-- :ballot_box_with_check: 1. Introdução ao TYpescript
+- :ballot_box_with_check: 1. Introdução ao TypeScript
 
-- :hourglass_flowing_sand: 2. Tipagem Estática e Generics
+- :ballot_box_with_check: 2. Tipagem Estática e Generics
 
 - :hourglass_flowing_sand: 3. Express com Typescript
 
