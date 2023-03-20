@@ -318,16 +318,16 @@ posicionamento
 
 - :ballot_box_with_check: 2. Tipagem Estática e Generics
 
-- :hourglass_flowing_sand: 3. Express com Typescript
+- :ballot_box_with_check: 3. Express com Typescript
 
-- :hourglass_flowing_sand: 4. Projeto - Trybesmith (NOTA: :hourglass_flowing_sand:%)
+- :ballot_box_with_check: 4. Projeto - Trybesmith (NOTA: 100%)
 
 
 ### Seção 09: Programação Orientada a Objetos (POO) e SOLID
 
-- :hourglass_flowing_sand: 1. Introdução à Orientação a Objetos
+- :ballot_box_with_check: 1. Introdução à Orientação a Objetos
 
-- :hourglass_flowing_sand: 2. Herança e Composição
+- :ballot_box_with_check: 2. Herança e Composição
 
 - :hourglass_flowing_sand: 3. Polimorfismo
 
