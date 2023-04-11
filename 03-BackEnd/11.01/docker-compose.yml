@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:5
+    container_name: mongo-db
+    restart: always
+    volumes:
+      - ./db:/data/db
+    ports:
+      - 8081:27017
